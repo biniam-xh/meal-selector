@@ -1,0 +1,85 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+app/build/
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Local configuration (SDK path — machine-specific)
+local.properties
+
+# Firebase config (contains project secrets — copy from google-services.json.example)
+app/google-services.json
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/deploymentTargetDropDown.xml
+.idea/render.experimental.xml
+
+# Keystore files (never commit signing keys)
+*.jks
+*.keystore
+signing.properties
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# Captures and profiling
+/captures/
+*.hprof
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# Kotlin
+.kotlin/
+
+# Android Profiling
+*.trace
+
+# Firebase / Google Services (keep example, ignore real file)
+google-services.json
+
+# Optional: Firebase CLI local cache
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
